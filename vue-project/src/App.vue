@@ -14,7 +14,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Getting started with VUE.JS!" />
+      <HelloWorld msg="Getting started with VUE.JS!" greeting="WELCOME" name="John Doe"/>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -35,6 +35,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
   padding: 4rem;
   background: whitesmoke;
   font-weight: normal;
+  
 }
 
 header {
@@ -90,6 +91,7 @@ nav a:first-of-type {
   body {
     display: flex;
     place-items: center;
+    
   }
 
   #app {
