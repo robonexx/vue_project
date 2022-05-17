@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HelloWorld from "@/components/HelloWorld.vue";
+
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
     <div class="wrapper">
       <HelloWorld msg="Getting started with VUE.JS!" greeting="WELCOME" name="John Doe"/>
+      <img alt='random user' class='image' src='https://images.pexels.com/photos/4444037/pexels-photo-4444037.jpeg?cs=srgb&dl=pexels-kayla-s-4444037.jpg&fm=jpg' />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -46,6 +48,14 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+}
+
+.image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-fit: cover;
 }
 
 a,
@@ -91,7 +101,7 @@ nav a:first-of-type {
   body {
     display: flex;
     place-items: center;
-    
+
   }
 
   #app {
