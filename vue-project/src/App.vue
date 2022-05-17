@@ -6,15 +6,15 @@ import HelloWorld from "@/components/HelloWorld.vue";
 <template>
   <header>
     <img
-      alt="Vue logo"
+      alt="Hat logo"
       class="logo"
-      src="@/assets/logo.svg"
+      src="@/assets/hat.svg"
       width="125"
       height="125"
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Getting started with VUE.JS!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -33,7 +33,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
+  background: whitesmoke;
   font-weight: normal;
 }
 
@@ -50,13 +50,14 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #E65D0C;
   transition: 0.4s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: #E65D0Ca1;
+    color: black;
   }
 }
 

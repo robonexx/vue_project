@@ -35,7 +35,7 @@ i {
 
 h3 {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-family: var(--font-big);
   margin-bottom: 0.4rem;
   color: var(--color-heading);
 }
