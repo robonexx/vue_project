@@ -32,7 +32,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem;
   background: whitesmoke;
   font-weight: normal;
 }
